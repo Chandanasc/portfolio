@@ -1,0 +1,246 @@
+nav{
+    position: absolute;
+    right: 10px;
+}
+*{
+    margin: 0%;
+}
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 15px;
+}
+section{
+    background-color:orange;
+   height: 100vh;
+   width: 100%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-text h2{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.section-text h1{
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.section-text p{
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:blueviolet;
+}
+.section-text svg{
+    color: black;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    animation: pop 1s ease-in-out infinite alternate;
+}
+@keyframes pop{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform: translateY(8px);
+    }
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color:goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about img{
+    height: fit-content;
+    width: 400px;
+    top: -10px;
+
+}
+.about p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    margin-top: -60px;
+}
+.about svg{
+    color: black;
+    position: relative;
+    left: 600px;
+    top:-200px;
+    animation: jag 1s ease-in-out infinite alternate;
+
+}
+@keyframes jag{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+.Project{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.Project img{
+    height: 300px;
+    width: 200px;
+     margin-top: 130px;
+    margin-left: 30px;
+}
+.Project h1{
+    color: black;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    /* margin-left: 600px;
+    top: 20px; */
+    position: relative;
+    left: 300px;
+}
+.Project p{
+    position: relative;
+    left: 600px;
+}
+.Project svg{
+    color: black;
+    position: relative;
+    left: 650px;
+    top:300px;
+    animation: jag 1s ease-in-out infinite alternate;
+
+}
+@keyframes jag{
+    from{
+        transform:translateY(0);
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+
+.Project p{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left:-900px;
+    align-items: center;
+    justify-content: center;
+}
+.Project button{
+    font-size: 20px;
+       background-color:crimson;
+       position: relative;
+       margin-left:-400px;
+       top: 500px;
+       height: 50px;
+       width: 100px;
+       border-color: rgb(238, 70, 9);
+       border-radius: 20px;
+}
+.pro{
+    height: 1000px;
+    width: 100%;
+}
+.source{
+    position: relative;
+    left: 450px;
+}
+.project2 img{
+    margin-top:600px;
+    margin-left:60px;
+    
+}
+.project2 h2{
+    font-size: 50px;
+    margin-top: -300px;
+    margin-left: 500px;
+}
+.project2 button{
+    font-size: 20px;
+    /* top: 150px; */
+    /* margin-left: 50px; */
+    position: relative;
+    left: 1050px;
+    top: 85px;
+    /* margin: 5px; */
+    /* width: 150px; */
+}
+.v{
+    /* position: relative; 
+    top: 20px;
+    left: 30px;  */
+     /* margin: -25px; */
+     /* margin-left: -50px; */
+     position: absolute;
+     top: 0px;
+     left: -100px;
+}
+.contact1{
+    height: 300px;
+    width: 100%;
+
+}
+.Contact{
+    background-color: gold;
+    height: 640px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Contact h1{
+    font-size: 70px;
+    /* margin-top: -350px;
+    margin-left: -100px; */
+    position: relative;
+    left: 0px;
+    top: -250px;
+}
+.Contact svg{
+    color: black;
+    top: 200px;
+    margin-left: -770px;
+    position: relative;
+    animation: man 2s ease-in-out infinite alternate;
+}
+@keyframes man{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.ph a{
+    position: relative;
+    top: 0px;
+    left: 250px;
+}
+.app a{
+    /* margin-left: -300px; */
+    position: relative;
+    top: 0px;
+    left: 800px;
+}
+.insta a{
+    /* margin-left: -400px; */
+    position: relative;
+    top: 0px;
+    left: 500px;
+}
+.facebook a{
+    /* margin-left: -100px; */
+    position: relative;
+    top: 0px;
+    left: 1100px;
+}
